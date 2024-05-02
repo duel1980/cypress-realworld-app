@@ -20,7 +20,7 @@ try {
 } catch (e) {}
 
 module.exports = defineConfig({
-  projectId: "7s5okt",
+  projectId: '67y9qb',
   retries: {
     runMode: 2,
   },

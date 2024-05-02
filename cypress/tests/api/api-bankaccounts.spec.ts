@@ -58,7 +58,7 @@ describe("Bank Accounts API", function () {
   });
 
   context("POST /bankAccounts", function () {
-    it("creates a new bank account", function () {
+    test("creates a new bank account", function () {
       const { id: userId } = ctx.authenticatedUser!;
 
       cy.request("POST", `${apiBankAccounts}`, {
